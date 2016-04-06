@@ -1,8 +1,7 @@
-# THIS FILE IS NOTES FROM PYLADIES GIT WORKSHOP 1 (2016-03-15)
+# THIS FILE CONTAINS NOTES FROM PYLADIES GIT WORKSHOP 1 (2016-03-15)
 
-print ("this is another file for gitpractice")
-
-commands = [git_status,git_log,git_diff,git_init,git_clone,git_add,git_reset,git_commit,git_pull]
+print ("This file contains notes from the PyLadies Git Workshop 1 from Wednesday, March 15th.")
+print ("")
 
 # checking the status 
 git_status = "use git_status to check the status of the git directory "
@@ -10,21 +9,26 @@ git_log = "use 'git log' check the history of the repository "
 git_diff = "use 'git diff' to get information about the differences from now and before the last commit"
 
 # establish a repository
-git_init = "use 'git init' to start a repository from a folder that exists on the computer"
-git_clone = "use 'git clone' to add a repository from online that is not local "
+git_init = "'git init' establishes a new repository from a folder that exists on the computer"
+git_clone = "'git clone' adds a repository from online that is not local "
 
 # adding a file / edits that is on the local computer
 git_add = "must 'git add' before committing to let git know you are ready to commit"
 git_reset = "'git reset' will undo the add command (nevermind!)"
 git_commit = "when doing a 'git commit' include -m and a description in quotes "
+# "-a" is the same as adding "." and will commit all the files in the repository
 
 # adding a file that is on the remote repository
 git_pull = "use 'git pull' to add files from online that are in a reposity that is also local "
 
+commands = [git_status,git_log,git_diff,git_init,git_clone,git_add,git_reset,git_commit,git_pull]
+
 for c in commands:
-	print c
+	print (c)
+	print ("")
 
 # RESEARCH VIM 
+# FOR QUESTIONS: georgia.reh@gmail	@georgiareh
 
 # FOLLOWING TEXT IS THE COMMAND LINE ENTRIES 
 """Last login: Tue Mar 15 18:12:10 on ttys000
